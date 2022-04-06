@@ -1,0 +1,22 @@
+Nếu SQLSERVER khác phiên bản SQL SERVER phiên bản SQLEXPESS 2014 thì làm bước sau
+	+ Chạy file QLDSVKHOAKTCN_sql.sql bằng bảng query SQLSERVER
+	+ Sau đó mở source code và start nếu có visual studio 2013 hoặc chạy file Setup ở folder Setup
+
+Nếu SQLSERVER cùng phiên bản SQL SERVER phiên bản SQLEXPESS 2014 thì làm bước sau
+	+ Copy db_QLDSVKKTCN.mdf và db_QLDSVKKTCN_log.ldf
+	vào đường link: C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA tùy máy có link khác nhau
+	+ Sau đó mở source code và start nếu có visual studio 2013 hoặc chạy file Setup ở folder Setup
+Copy folder .\haarcascade vào C:\
+
+Nhóm Tài khoản đăng nhập:
+	Tài khoản 1: Tài khoản có quyền hệ thống cao nhất
+		username: ADMIN
+		pass: admin
+	Tài khoản 2:
+		username: QUANTRI
+		pass: quantri
+	Tài khoản 3:
+		username: GIAOVIEN
+		pass: giaovien
+Lưu ý: Tài khoản 2 và 3 chưa có thông quan xác thực nên không thể đăng nhập cần đăng nhập tài khoản ADMIN để tiến hành thêm bước xác thực
+nhận dạng bằng khuôn mặt
